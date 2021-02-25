@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poisson"
+version = "1.0"
+description = "Projekt do filtrowania szumu o rozkładzie Poissona"
+authors = ["Dominik Wolny <wolny.dominik@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.0,<3.9"
+tensorflow = "^2.3.1"
+opencv-python = "^4.5.1"
+Pillow = "^8.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
